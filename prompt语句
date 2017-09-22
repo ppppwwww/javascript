@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>prompt语句</title>
+ <script type="text/javascript">
+    function rec(){
+      var myname=prompt("请输入你的姓名:");
+       if(myname!=null){   
+	      alert("你好"+myname); 
+	      }
+       else{  
+	      alert("你好 my friend.");  
+		  }
+       }
+ </script>
+</head>
+
+<body>
+   <input name="button" type="button" onClick="rec()" value="点击我，弹出确认      对话框" />
+</body>
+</html>
